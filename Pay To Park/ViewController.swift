@@ -39,32 +39,25 @@ class ViewController: UIViewController, UITextFieldDelegate {
         let hoursParked = Double(hoursParkedTextField.text!)
         var totalCharge = 5.00
         
-        if (hoursParked <= 3.00)
-        {
+        if (hoursParked <= 3.00) {
             totalCharge = 5.00
-        }
-        else
-        {
+        } else {
             var remainingHours = hoursParked! - 3.00
-            while (remainingHours >= 1.00)
-            {
+            while (remainingHours >= 1.00){
                 remainingHours -= 1.00
                 totalCharge += 1.50
             }
-            if (remainingHours > 0.00)
-            {
+            if (remainingHours > 0.00){
                 totalCharge += 1.50
             }
         }
-        
-        if (totalCharge > 18.00)
-        {
+        if (totalCharge > 18.00) {
             totalCharge = 18.00
         }
-        
         let chargeString = String.localizedStringWithFormat("%.2f", totalCharge)
         finalAmountLabel.text = "$\(chargeString)"
     }
+    
     @IBAction func resetButton(sender: UIButton) {
         finalAmountLabel.text = "$0"
         hoursParkedTextField.text = ""
