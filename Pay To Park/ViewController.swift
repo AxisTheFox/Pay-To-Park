@@ -11,13 +11,13 @@ import UIKit
 class ViewController: UIViewController, UITextFieldDelegate {
     
     // MARK: Properties
-    @IBOutlet weak var hoursParked: UITextField!
-    @IBOutlet weak var totalCharge: UILabel!
+    @IBOutlet weak var hoursParkedTextField: UITextField!
+    @IBOutlet weak var finalAmountLabel: UILabel!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        hoursParked.delegate = self
+        hoursParkedTextField.delegate = self
     }
     
     override func didReceiveMemoryWarning() {
@@ -29,18 +29,45 @@ class ViewController: UIViewController, UITextFieldDelegate {
     // MARK: UITextFieldDelegate
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         // Hide the keyboard.
-        hoursParked.resignFirstResponder()
+        hoursParkedTextField.resignFirstResponder()
         return true
     }
     
     
     // MARK: Actions
     @IBAction func calculateButton(sender: UIButton) {
+        let hoursParked = Double(hoursParkedTextField.text!)
+        var totalCharge = 5.00
         
+        if (hoursParked <= 3.00)
+        {
+            totalCharge = 5.00
+        }
+        else
+        {
+            var remainingHours = hoursParked! - 3.00
+            while (remainingHours >= 1.00)
+            {
+                remainingHours -= 1.00
+                totalCharge += 1.50
+            }
+            if (remainingHours > 0.00)
+            {
+                totalCharge += 1.50
+            }
+        }
+        
+        if (totalCharge > 18.00)
+        {
+            totalCharge = 18.00
+        }
+        
+        let chargeString = String.localizedStringWithFormat("%.2f", totalCharge)
+        finalAmountLabel.text = "$\(chargeString)"
     }
     @IBAction func resetButton(sender: UIButton) {
-        totalCharge.text = "$0"
-        hoursParked.text = ""
+        finalAmountLabel.text = "$0"
+        hoursParkedTextField.text = ""
     }
     
 }

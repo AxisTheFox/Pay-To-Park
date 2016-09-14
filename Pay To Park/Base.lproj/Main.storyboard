@@ -58,8 +58,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="hoursParked" destination="Wbv-sw-fVT" id="l99-E9-ZP4"/>
-                        <outlet property="totalCharge" destination="vKd-O3-Fcb" id="5ZJ-Gr-art"/>
+                        <outlet property="finalAmountLabel" destination="vKd-O3-Fcb" id="eXV-Al-doM"/>
+                        <outlet property="hoursParkedTextField" destination="Wbv-sw-fVT" id="zYW-mL-NsQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
