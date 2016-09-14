@@ -8,20 +8,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
-    
+    // MARK: Properties
+    @IBOutlet weak var hoursParked: UITextField!
+    @IBOutlet weak var totalCharge: UILabel!
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        hoursParked.delegate = self
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    // MARK: UITextFieldDelegate
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        // Hide the keyboard.
+        hoursParked.resignFirstResponder()
+        return true
+    }
+    
+    
+    // MARK: Actions
+    @IBAction func calculateButton(sender: UIButton) {
+        
+    }
+    @IBAction func resetButton(sender: UIButton) {
+        totalCharge.text = "$0"
+        hoursParked.text = ""
+    }
+    
 }
-
