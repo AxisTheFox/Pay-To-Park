@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39697CF1D89B21500549D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39697CE1D89B21500549D74 /* AppDelegate.swift */; };
+		D39697D11D89B21500549D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39697D01D89B21500549D74 /* ViewController.swift */; };
+		D39697D41D89B21500549D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39697D21D89B21500549D74 /* Main.storyboard */; };
+		D39697D61D89B21500549D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39697D51D89B21500549D74 /* Assets.xcassets */; };
+		D39697D91D89B21500549D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39697D71D89B21500549D74 /* LaunchScreen.storyboard */; };
+		D39697E41D89B21500549D74 /* Pay_To_ParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39697E31D89B21500549D74 /* Pay_To_ParkTests.swift */; };
+		D39697EF1D89B21500549D74 /* Pay_To_ParkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39697EE1D89B21500549D74 /* Pay_To_ParkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39697E01D89B21500549D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39697C31D89B21500549D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39697CA1D89B21500549D74;
+			remoteInfo = "Pay To Park";
+		};
+		D39697EB1D89B21500549D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39697C31D89B21500549D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39697CA1D89B21500549D74;
+			remoteInfo = "Pay To Park";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D39697CB1D89B21500549D74 /* Pay To Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pay To Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39697CE1D89B21500549D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D39697D01D89B21500549D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D39697D31D89B21500549D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D39697D51D89B21500549D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39697D81D89B21500549D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D39697DA1D89B21500549D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39697DF1D89B21500549D74 /* Pay To ParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay To ParkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39697E31D89B21500549D74 /* Pay_To_ParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_To_ParkTests.swift; sourceTree = "<group>"; };
+		D39697E51D89B21500549D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39697EA1D89B21500549D74 /* Pay To ParkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pay To ParkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39697EE1D89B21500549D74 /* Pay_To_ParkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pay_To_ParkUITests.swift; sourceTree = "<group>"; };
+		D39697F01D89B21500549D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39697C81D89B21500549D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697DC1D89B21500549D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697E71D89B21500549D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39697C21D89B21500549D74 = {
+			isa = PBXGroup;
+			children = (
+				D39697CD1D89B21500549D74 /* Pay To Park */,
+				D39697E21D89B21500549D74 /* Pay To ParkTests */,
+				D39697ED1D89B21500549D74 /* Pay To ParkUITests */,
+				D39697CC1D89B21500549D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39697CC1D89B21500549D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39697CB1D89B21500549D74 /* Pay To Park.app */,
+				D39697DF1D89B21500549D74 /* Pay To ParkTests.xctest */,
+				D39697EA1D89B21500549D74 /* Pay To ParkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39697CD1D89B21500549D74 /* Pay To Park */ = {
+			isa = PBXGroup;
+			children = (
+				D39697CE1D89B21500549D74 /* AppDelegate.swift */,
+				D39697D01D89B21500549D74 /* ViewController.swift */,
+				D39697D21D89B21500549D74 /* Main.storyboard */,
+				D39697D51D89B21500549D74 /* Assets.xcassets */,
+				D39697D71D89B21500549D74 /* LaunchScreen.storyboard */,
+				D39697DA1D89B21500549D74 /* Info.plist */,
+			);
+			path = "Pay To Park";
+			sourceTree = "<group>";
+		};
+		D39697E21D89B21500549D74 /* Pay To ParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39697E31D89B21500549D74 /* Pay_To_ParkTests.swift */,
+				D39697E51D89B21500549D74 /* Info.plist */,
+			);
+			path = "Pay To ParkTests";
+			sourceTree = "<group>";
+		};
+		D39697ED1D89B21500549D74 /* Pay To ParkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D39697EE1D89B21500549D74 /* Pay_To_ParkUITests.swift */,
+				D39697F01D89B21500549D74 /* Info.plist */,
+			);
+			path = "Pay To ParkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39697CA1D89B21500549D74 /* Pay To Park */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39697F31D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To Park" */;
+			buildPhases = (
+				D39697C71D89B21500549D74 /* Sources */,
+				D39697C81D89B21500549D74 /* Frameworks */,
+				D39697C91D89B21500549D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pay To Park";
+			productName = "Pay To Park";
+			productReference = D39697CB1D89B21500549D74 /* Pay To Park.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D39697DE1D89B21500549D74 /* Pay To ParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39697F61D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To ParkTests" */;
+			buildPhases = (
+				D39697DB1D89B21500549D74 /* Sources */,
+				D39697DC1D89B21500549D74 /* Frameworks */,
+				D39697DD1D89B21500549D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39697E11D89B21500549D74 /* PBXTargetDependency */,
+			);
+			name = "Pay To ParkTests";
+			productName = "Pay To ParkTests";
+			productReference = D39697DF1D89B21500549D74 /* Pay To ParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D39697E91D89B21500549D74 /* Pay To ParkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39697F91D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To ParkUITests" */;
+			buildPhases = (
+				D39697E61D89B21500549D74 /* Sources */,
+				D39697E71D89B21500549D74 /* Frameworks */,
+				D39697E81D89B21500549D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39697EC1D89B21500549D74 /* PBXTargetDependency */,
+			);
+			name = "Pay To ParkUITests";
+			productName = "Pay To ParkUITests";
+			productReference = D39697EA1D89B21500549D74 /* Pay To ParkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39697C31D89B21500549D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Fox, Braydon";
+				TargetAttributes = {
+					D39697CA1D89B21500549D74 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D39697DE1D89B21500549D74 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D39697CA1D89B21500549D74;
+					};
+					D39697E91D89B21500549D74 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D39697CA1D89B21500549D74;
+					};
+				};
+			};
+			buildConfigurationList = D39697C61D89B21500549D74 /* Build configuration list for PBXProject "Pay To Park" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39697C21D89B21500549D74;
+			productRefGroup = D39697CC1D89B21500549D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39697CA1D89B21500549D74 /* Pay To Park */,
+				D39697DE1D89B21500549D74 /* Pay To ParkTests */,
+				D39697E91D89B21500549D74 /* Pay To ParkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39697C91D89B21500549D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39697D91D89B21500549D74 /* LaunchScreen.storyboard in Resources */,
+				D39697D61D89B21500549D74 /* Assets.xcassets in Resources */,
+				D39697D41D89B21500549D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697DD1D89B21500549D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697E81D89B21500549D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39697C71D89B21500549D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39697D11D89B21500549D74 /* ViewController.swift in Sources */,
+				D39697CF1D89B21500549D74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697DB1D89B21500549D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39697E41D89B21500549D74 /* Pay_To_ParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D39697E61D89B21500549D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39697EF1D89B21500549D74 /* Pay_To_ParkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39697E11D89B21500549D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39697CA1D89B21500549D74 /* Pay To Park */;
+			targetProxy = D39697E01D89B21500549D74 /* PBXContainerItemProxy */;
+		};
+		D39697EC1D89B21500549D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39697CA1D89B21500549D74 /* Pay To Park */;
+			targetProxy = D39697EB1D89B21500549D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39697D21D89B21500549D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39697D31D89B21500549D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D39697D71D89B21500549D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39697D81D89B21500549D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39697F11D89B21500549D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D39697F21D89B21500549D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D39697F41D89B21500549D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pay To Park/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D39697F51D89B21500549D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pay To Park/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-Park";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D39697F71D89B21500549D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pay To ParkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay To Park.app/Pay To Park";
+			};
+			name = Debug;
+		};
+		D39697F81D89B21500549D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pay To ParkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-ParkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pay To Park.app/Pay To Park";
+			};
+			name = Release;
+		};
+		D39697FA1D89B21500549D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pay To ParkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pay To Park";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D39697FB1D89B21500549D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pay To ParkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bsu.edu.Pay-To-ParkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pay To Park";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39697C61D89B21500549D74 /* Build configuration list for PBXProject "Pay To Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39697F11D89B21500549D74 /* Debug */,
+				D39697F21D89B21500549D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39697F31D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To Park" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39697F41D89B21500549D74 /* Debug */,
+				D39697F51D89B21500549D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D39697F61D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To ParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39697F71D89B21500549D74 /* Debug */,
+				D39697F81D89B21500549D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D39697F91D89B21500549D74 /* Build configuration list for PBXNativeTarget "Pay To ParkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39697FA1D89B21500549D74 /* Debug */,
+				D39697FB1D89B21500549D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39697C31D89B21500549D74 /* Project object */;
+}
